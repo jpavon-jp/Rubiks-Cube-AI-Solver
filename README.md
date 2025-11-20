@@ -5,7 +5,7 @@ An algorithmic research project exploring classical Artificial Intelligence sear
 ## 📖 Project Overview
 This project implements three fundamental search algorithms from scratch in Python without external solver libraries. The goal was to evaluate their performance trade-offs in a combinatorial optimization problem, measuring execution time, path optimality, and computational limits.
 
-📄 **[Read the Full Research Paper](./ML%20Assignment%201%20-%20Josue%20Pavon%201.pdf)**
+📄 **[Read the Full Research Paper](./Documentation.pdf)**
 
 ---
 
@@ -37,7 +37,7 @@ This project implements three fundamental search algorithms from scratch in Pyth
     ```
 2.  **Run the solver script:**
     ```bash
-    python "Assignment 1 Josue Pavon ML.py"
+    python "main.py"
     ```
 
 ---
