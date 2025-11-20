@@ -12,12 +12,12 @@ This project implements three fundamental search algorithms from scratch in Pyth
 ## 📊 Key Findings & Methodology
 
 * **Algorithms Implemented:**
-    * [cite_start]**DFS (Depth-First Search):** Fast for trivial scrambles but produces suboptimal (longer) solution paths [cite: 263-266].
-    * **BFS (Breadth-First Search):** Guarantees the shortest path (optimal) but is memory-intensive. [cite_start]Successfully solved 3x3x3 constraints [cite: 274-275].
-    * **A* (A-Star):** The most efficient for 2x2x2, utilizing a custom heuristic (misplaced stickers). [cite_start]It solved a 2-move scramble in **0.02s** compared to BFS's **1.41s** [cite: 269-270].
+    * **DFS (Depth-First Search):** Fast for trivial scrambles but produces suboptimal (longer) solution paths.
+    * **BFS (Breadth-First Search):** Guarantees the shortest path (optimal) but is memory-intensive. Successfully solved 3x3x3 constraints.
+    * **A* (A-Star):** The most efficient for 2x2x2, utilizing a custom heuristic (misplaced stickers). It solved a 2-move scramble in **0.02s** compared to BFS's **1.41s**.
 
 * **Performance Limits:**
-    * [cite_start]The project demonstrated the limits of naive heuristics; while A* excelled at shallow depths, it encountered timeouts on complex 4-move scrambles, highlighting the need for advanced pattern databases [cite: 271-273].
+    * The project demonstrated the limits of naive heuristics; while A* excelled at shallow depths, it encountered timeouts on complex 4-move scrambles, highlighting the need for advanced pattern databases.
 
 ---
 
